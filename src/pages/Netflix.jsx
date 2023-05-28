@@ -1,10 +1,11 @@
 import React from 'react';
+import BackgroundImage from 'components/BackgroundImage';
 
 const Netflix = () => {
   console.log('Netflix');
   return (
     <div>
-      <h1>home page</h1>
+      <BackgroundImage />
     </div>
   );
 };
