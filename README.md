@@ -1,4 +1,6 @@
 ![](https://img.shields.io/badge/fmanimashaun-green)
+[![Work in Progress](https://img.shields.io/badge/Work%20in%20Progress-Yes-yellow.svg)](https://github.com/fmanimashaun/netflix-clone)
+
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
@@ -26,7 +28,7 @@
 
 # 📖 YumEats <a name="about-project"></a>
 
-**YumEats** it is a simple landing page for a resturant that offers a variety of dishes. it is built using react and styled using tailwindcss. using tailwindcss, the app is responsive and can be viewed on any device.
+**Netflix clone** is a clone of the netflix website. It is built using react and styled using tailwindcss.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,16 +42,20 @@
 
 ### Key Features <a name="key-features"></a>
 
-- The app is responsive and can be viewed on any device.
-- The app is built using react and styled using tailwindcss.
-- The app is deployed to github pages.
+- [x] Responsive design
+- [x] Mobile first design
+- [x] Netflix landing page
+- [x] Netflix browse page
+- [x] Netflix sign in page
+- [x] Netflix sign up page
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://fmanimashaun.github.io/yumeats/)
+- [Live Demo Link](https://fmanimashaun.github.io/netflix-clone/)
 
 ## 📷 Screenshots <a name="screenshots"></a>
 
@@ -88,8 +94,8 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-desired-folder
-  git clone https://github.com/fmanimashaun/yumeats.git
-  open the repo folder `yumeats`
+  git clone https://github.com/fmanimashaun/netflix-clone.git
+  open the repo folder `netflix-clone`
 ```
 
 ### Install <a name="install"></a>
@@ -109,7 +115,7 @@ To run the project, execute the following command:
 ```
 
 Runs the app in the development mode.\
-Open [http://localhost:3000/cryptorank-hub](http://localhost:3000/yumeats) to view it in your browser.
+Open [http://localhost:3000/netflix-clone](http://localhost:3000/netflix-clone) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
