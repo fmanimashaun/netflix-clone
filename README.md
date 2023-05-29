@@ -177,12 +177,8 @@ See the section about [github page deployment](https://github.com/gitname/react-
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] add to cart functionality
-- [ ] add checkout functionality
-- [ ] add payment functionality
-- [ ] add order tracking functionality
-- [ ] add user authentication functionality
-- [ ] add admin dashboard functionality
+- [ ] Add more pages
+- [ ] Add more features
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
