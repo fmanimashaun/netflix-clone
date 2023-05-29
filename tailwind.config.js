@@ -2,10 +2,12 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    extend: {},
+  },
+  variants: {
     extend: {
-      backgroundImage: {
-        'netflix': "url('/src/assets/img/background-img.jpg')",
-      }
+      borderColor: ['active'], // Enable the active variant for borderColor utilities
+      borderWidth: ['active'], // Enable the active variant for borderWidth utilities
     },
   },
   plugins: [],

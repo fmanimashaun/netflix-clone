@@ -1,11 +1,21 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-function BackgroundImage() {
+function BackgroundImage({ imgPath }) {
+  const bgStyle = {
+    backgroundImage: `url(${imgPath})`,
+  };
+
   return (
-    <div className='h-screen bg-netflix bg-no-repeat'>
-      <h1>text</h1>
-    </div>
-  )
+    <div
+      className="bg-cover bg-center bg-no-repeat bg-fixed h-screen"
+      style={bgStyle}
+    />
+  );
 }
 
-export default BackgroundImage
+BackgroundImage.propTypes = {
+  imgPath: PropTypes.string.isRequired,
+};
+
+export default BackgroundImage;
